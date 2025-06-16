@@ -1,5 +1,11 @@
 #!/bin/bash
 
-TIMESTAMP=$(date) 
+TIMESTAMP=$(date)
+NUMBER1=100
+NUMBER2=200 
+
+SUM=$(($NUMBER1+$NUMBER2))
 
 echo "script executed at: $TIMESTAMP"
+
+echo "sum of $NUMBER1 and $NUMBER2 is: $SUM"

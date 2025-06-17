@@ -8,11 +8,12 @@ then
     exit 1
 fi 
 
-dnf install mysql -y
+dnf install mysqlddd -y
 
 if [ $? -eq 0 ]
 then 
     echo "installing mysql.....SUCCESS"
 else 
     echo "installing mysql.....FAILURE"
+    
 fi         

@@ -14,5 +14,7 @@ echo "user who is running the script:$USER"
 
 echo "process ID of the current script:$$"
 
+sleep 5 &
+
 echo "process ID of the last command running in background:$!"
 

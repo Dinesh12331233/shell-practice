@@ -8,7 +8,7 @@ then
     exit 1
 fi 
 
-dnf install mysqlddd -y
+dnf install mysql -y
 
 if [ $? -eq 0 ]
 then 

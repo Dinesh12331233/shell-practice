@@ -42,4 +42,4 @@ do
     rm -rf $FILEPATH  
 done <<< $FILES_TO_DELETE 
 
-echo "script executed successfully" 
+echo "script executed successfully" | tee -a $LOG_FILE

@@ -18,10 +18,10 @@ mkdir -p $LOGS_FOLDER
 #checking the user has root access or not
 if [ $USERID -ne 0 ]
 then
-    echo -e "$R Error: you must have root access to execute the script $N " | tee -a $LOG_FILE
+    echo -e "$R Error: you must have root access to execute the script $N " 
     exit 1
 else 
-    echo "you are root user.you have root access" | tee -a $LOG_FILE
+    echo "you are root user.you have root access" 
 fi 
 
 USAGE(){

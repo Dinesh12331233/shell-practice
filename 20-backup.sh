@@ -58,7 +58,7 @@ fi
 
 FILES_TO_DELETE=$(find $SOURCE_DIR -name "*.log" -mtime +$DAYS) 
 
-if [ ! -z $FILES_TO_DELETE ]
+if [ !  $FILES_TO_DELETE ]
 then 
     echo "files found"
 else 
